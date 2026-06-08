@@ -1,0 +1,16 @@
+{
+  "name": "estoque-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix estoque-app run dev",
+    "start": "npm --prefix estoque-app run dev",
+    "build": "npm --prefix estoque-app run build",
+    "test": "npm --prefix estoque-app run test"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}
